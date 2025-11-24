@@ -21,7 +21,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
     { path: '/courses', label: 'Courses', icon: '📚' },
     { path: '/sessions', label: 'Sessions', icon: '🗓️' },
     { path: '/students', label: 'Students', icon: '👥' },
-    { path: '/attendance', label: 'Attendance', icon: '✅' },
+    // { path: '/attendance', label: 'Attendance', icon: '✅' },
   ];
 
   return (
