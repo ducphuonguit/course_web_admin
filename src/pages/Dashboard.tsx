@@ -71,7 +71,7 @@ export const Dashboard: React.FC = () => {
       )}
 
       {/* Quick Actions */}
-      <div className="bg-white rounded-lg shadow p-6">
+      {/* <div className="bg-white rounded-lg shadow p-6">
         <h2 className="text-xl font-semibold mb-4">Quick Actions</h2>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           <Link
@@ -103,7 +103,7 @@ export const Dashboard: React.FC = () => {
             <div className="text-sm font-medium">View Reports</div>
           </Link>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

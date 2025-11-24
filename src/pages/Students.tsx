@@ -72,9 +72,9 @@ export const StudentsPage: React.FC = () => {
               <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
                 Email
               </th>
-              <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
+              {/* <th className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase">
                 Actions
-              </th>
+              </th> */}
             </tr>
           </thead>
           <tbody className="bg-white divide-y divide-gray-200">
@@ -89,14 +89,14 @@ export const StudentsPage: React.FC = () => {
                 <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
                   {student.email}
                 </td>
-                <td className="px-6 py-4 whitespace-nowrap text-sm">
+                {/* <td className="px-6 py-4 whitespace-nowrap text-sm">
                   <a
                     href={`/attendance/student/${student.id}`}
                     className="text-blue-600 hover:text-blue-900"
                   >
                     View Attendance
                   </a>
-                </td>
+                </td> */}
               </tr>
             ))}
           </tbody>

@@ -93,7 +93,7 @@ export const CoursesPage: React.FC = () => {
               </button>
               <button
                 onClick={() => course.id && handleDelete(course.id)}
-                className="flex-1 bg-red-600 text-white px-3 py-2 rounded hover:bg-red-700 text-sm"
+                className="flex-1 bg-red-600 text-white px-3 py-2 rounded hover:bg-red-700 text-sm hidden"
               >
                 Delete
               </button>
